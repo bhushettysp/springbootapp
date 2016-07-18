@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SkeletonWebServicesApplication {
 
 	//my first commit
+	//my second commit
 	public static void main(String[] args) {
 		SpringApplication.run(SkeletonWebServicesApplication.class, args);
 	}
