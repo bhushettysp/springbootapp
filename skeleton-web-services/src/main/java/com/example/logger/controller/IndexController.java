@@ -10,7 +10,7 @@ import com.example.logger.helper.SpringLoggingHelper;
 @Controller
 public class IndexController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
-    @RequestMapping("/")
+    @RequestMapping("/api/loggertest")
     String index(){
         logger.debug("This is a debug message");
         logger.info("This is an info message");
